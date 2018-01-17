@@ -1,0 +1,12 @@
+PODS:
+  - DeviceKit (1.2.3)
+
+DEPENDENCIES:
+  - DeviceKit (~> 1.0)
+
+SPEC CHECKSUMS:
+  DeviceKit: f33cbc6e67d9bb416e42dedc647557c7c2f6d3d7
+
+PODFILE CHECKSUM: 7cdd30a38b688fa501d6f2af820e88121cc119d4
+
+COCOAPODS: 1.2.1

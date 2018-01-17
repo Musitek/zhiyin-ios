@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BFAC2EA200D75B3006861BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAC2E9200D75B3006861BD /* AppDelegate.swift */; };
+		3BFAC2EC200D75B3006861BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAC2EB200D75B3006861BD /* ViewController.swift */; };
+		3BFAC2EF200D75B3006861BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFAC2ED200D75B3006861BD /* Main.storyboard */; };
+		3BFAC2F1200D75B3006861BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFAC2F0200D75B3006861BD /* Assets.xcassets */; };
+		3BFAC2F4200D75B3006861BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFAC2F2200D75B3006861BD /* LaunchScreen.storyboard */; };
+		3BFAC2FF200D75B3006861BD /* musitekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAC2FE200D75B3006861BD /* musitekTests.swift */; };
+		3BFAC30A200D75B3006861BD /* musitekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAC309200D75B3006861BD /* musitekUITests.swift */; };
+		3BFAC318200D77F7006861BD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAC317200D77F7006861BD /* Util.swift */; };
+		A0A6D5E701CA7B5BB1088732 /* Pods_musitek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB1F5A95E82D1E9B1A05AE3 /* Pods_musitek.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BFAC2FB200D75B3006861BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BFAC2DE200D75B3006861BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFAC2E5200D75B3006861BD;
+			remoteInfo = musitek;
+		};
+		3BFAC306200D75B3006861BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BFAC2DE200D75B3006861BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFAC2E5200D75B3006861BD;
+			remoteInfo = musitek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB1F5A95E82D1E9B1A05AE3 /* Pods_musitek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musitek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFAC2E6200D75B3006861BD /* musitek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musitek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFAC2E9200D75B3006861BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BFAC2EB200D75B3006861BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BFAC2EE200D75B3006861BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BFAC2F0200D75B3006861BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BFAC2F3200D75B3006861BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BFAC2F5200D75B3006861BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFAC2FA200D75B3006861BD /* musitekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musitekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFAC2FE200D75B3006861BD /* musitekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musitekTests.swift; sourceTree = "<group>"; };
+		3BFAC300200D75B3006861BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFAC305200D75B3006861BD /* musitekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musitekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFAC309200D75B3006861BD /* musitekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musitekUITests.swift; sourceTree = "<group>"; };
+		3BFAC30B200D75B3006861BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFAC317200D77F7006861BD /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		6D81C638727D59293C00970E /* Pods-musitek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musitek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-musitek/Pods-musitek.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB7E3A1262F2A9896180001 /* Pods-musitek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musitek.release.xcconfig"; path = "Pods/Target Support Files/Pods-musitek/Pods-musitek.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BFAC2E3200D75B3006861BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A6D5E701CA7B5BB1088732 /* Pods_musitek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFAC2F7200D75B3006861BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFAC302200D75B3006861BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B7842C8102D1FDE9AD3E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB1F5A95E82D1E9B1A05AE3 /* Pods_musitek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BFAC2DD200D75B3006861BD = {
+			isa = PBXGroup;
+			children = (
+				3BFAC2E8200D75B3006861BD /* musitek */,
+				3BFAC2FD200D75B3006861BD /* musitekTests */,
+				3BFAC308200D75B3006861BD /* musitekUITests */,
+				3BFAC2E7200D75B3006861BD /* Products */,
+				E8F8438CBF0C5B589061070A /* Pods */,
+				09B7842C8102D1FDE9AD3E90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BFAC2E7200D75B3006861BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BFAC2E6200D75B3006861BD /* musitek.app */,
+				3BFAC2FA200D75B3006861BD /* musitekTests.xctest */,
+				3BFAC305200D75B3006861BD /* musitekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BFAC2E8200D75B3006861BD /* musitek */ = {
+			isa = PBXGroup;
+			children = (
+				3BFAC2E9200D75B3006861BD /* AppDelegate.swift */,
+				3BFAC2EB200D75B3006861BD /* ViewController.swift */,
+				3BFAC2ED200D75B3006861BD /* Main.storyboard */,
+				3BFAC2F0200D75B3006861BD /* Assets.xcassets */,
+				3BFAC2F2200D75B3006861BD /* LaunchScreen.storyboard */,
+				3BFAC2F5200D75B3006861BD /* Info.plist */,
+				3BFAC317200D77F7006861BD /* Util.swift */,
+			);
+			path = musitek;
+			sourceTree = "<group>";
+		};
+		3BFAC2FD200D75B3006861BD /* musitekTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BFAC2FE200D75B3006861BD /* musitekTests.swift */,
+				3BFAC300200D75B3006861BD /* Info.plist */,
+			);
+			path = musitekTests;
+			sourceTree = "<group>";
+		};
+		3BFAC308200D75B3006861BD /* musitekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BFAC309200D75B3006861BD /* musitekUITests.swift */,
+				3BFAC30B200D75B3006861BD /* Info.plist */,
+			);
+			path = musitekUITests;
+			sourceTree = "<group>";
+		};
+		E8F8438CBF0C5B589061070A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D81C638727D59293C00970E /* Pods-musitek.debug.xcconfig */,
+				FBB7E3A1262F2A9896180001 /* Pods-musitek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BFAC2E5200D75B3006861BD /* musitek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFAC30E200D75B3006861BD /* Build configuration list for PBXNativeTarget "musitek" */;
+			buildPhases = (
+				FF9999152A09A723A1CE40FC /* [CP] Check Pods Manifest.lock */,
+				3BFAC2E2200D75B3006861BD /* Sources */,
+				3BFAC2E3200D75B3006861BD /* Frameworks */,
+				3BFAC2E4200D75B3006861BD /* Resources */,
+				D06E13A8D40D841568E6EA71 /* [CP] Embed Pods Frameworks */,
+				AB9B52C94EE2E09ADD29516F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musitek;
+			productName = musitek;
+			productReference = 3BFAC2E6200D75B3006861BD /* musitek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BFAC2F9200D75B3006861BD /* musitekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFAC311200D75B3006861BD /* Build configuration list for PBXNativeTarget "musitekTests" */;
+			buildPhases = (
+				3BFAC2F6200D75B3006861BD /* Sources */,
+				3BFAC2F7200D75B3006861BD /* Frameworks */,
+				3BFAC2F8200D75B3006861BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BFAC2FC200D75B3006861BD /* PBXTargetDependency */,
+			);
+			name = musitekTests;
+			productName = musitekTests;
+			productReference = 3BFAC2FA200D75B3006861BD /* musitekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BFAC304200D75B3006861BD /* musitekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFAC314200D75B3006861BD /* Build configuration list for PBXNativeTarget "musitekUITests" */;
+			buildPhases = (
+				3BFAC301200D75B3006861BD /* Sources */,
+				3BFAC302200D75B3006861BD /* Frameworks */,
+				3BFAC303200D75B3006861BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BFAC307200D75B3006861BD /* PBXTargetDependency */,
+			);
+			name = musitekUITests;
+			productName = musitekUITests;
+			productReference = 3BFAC305200D75B3006861BD /* musitekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BFAC2DE200D75B3006861BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = biu;
+				TargetAttributes = {
+					3BFAC2E5200D75B3006861BD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3BFAC2F9200D75B3006861BD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BFAC2E5200D75B3006861BD;
+					};
+					3BFAC304200D75B3006861BD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3BFAC2E5200D75B3006861BD;
+					};
+				};
+			};
+			buildConfigurationList = 3BFAC2E1200D75B3006861BD /* Build configuration list for PBXProject "musitek" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BFAC2DD200D75B3006861BD;
+			productRefGroup = 3BFAC2E7200D75B3006861BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BFAC2E5200D75B3006861BD /* musitek */,
+				3BFAC2F9200D75B3006861BD /* musitekTests */,
+				3BFAC304200D75B3006861BD /* musitekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BFAC2E4200D75B3006861BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFAC2F4200D75B3006861BD /* LaunchScreen.storyboard in Resources */,
+				3BFAC2F1200D75B3006861BD /* Assets.xcassets in Resources */,
+				3BFAC2EF200D75B3006861BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFAC2F8200D75B3006861BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFAC303200D75B3006861BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB9B52C94EE2E09ADD29516F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musitek/Pods-musitek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06E13A8D40D841568E6EA71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musitek/Pods-musitek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9999152A09A723A1CE40FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BFAC2E2200D75B3006861BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFAC2EC200D75B3006861BD /* ViewController.swift in Sources */,
+				3BFAC318200D77F7006861BD /* Util.swift in Sources */,
+				3BFAC2EA200D75B3006861BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFAC2F6200D75B3006861BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFAC2FF200D75B3006861BD /* musitekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFAC301200D75B3006861BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFAC30A200D75B3006861BD /* musitekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BFAC2FC200D75B3006861BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BFAC2E5200D75B3006861BD /* musitek */;
+			targetProxy = 3BFAC2FB200D75B3006861BD /* PBXContainerItemProxy */;
+		};
+		3BFAC307200D75B3006861BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BFAC2E5200D75B3006861BD /* musitek */;
+			targetProxy = 3BFAC306200D75B3006861BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BFAC2ED200D75B3006861BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BFAC2EE200D75B3006861BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BFAC2F2200D75B3006861BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BFAC2F3200D75B3006861BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BFAC30C200D75B3006861BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BFAC30D200D75B3006861BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BFAC30F200D75B3006861BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D81C638727D59293C00970E /* Pods-musitek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FWFH3959;
+				INFOPLIST_FILE = musitek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biu.musitek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BFAC310200D75B3006861BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB7E3A1262F2A9896180001 /* Pods-musitek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FWFH3959;
+				INFOPLIST_FILE = musitek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biu.musitek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BFAC312200D75B3006861BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FWFH3959;
+				INFOPLIST_FILE = musitekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biu.musitekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/musitek.app/musitek";
+			};
+			name = Debug;
+		};
+		3BFAC313200D75B3006861BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FWFH3959;
+				INFOPLIST_FILE = musitekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biu.musitekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/musitek.app/musitek";
+			};
+			name = Release;
+		};
+		3BFAC315200D75B3006861BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FWFH3959;
+				INFOPLIST_FILE = musitekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biu.musitekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = musitek;
+			};
+			name = Debug;
+		};
+		3BFAC316200D75B3006861BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48FWFH3959;
+				INFOPLIST_FILE = musitekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biu.musitekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = musitek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BFAC2E1200D75B3006861BD /* Build configuration list for PBXProject "musitek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFAC30C200D75B3006861BD /* Debug */,
+				3BFAC30D200D75B3006861BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFAC30E200D75B3006861BD /* Build configuration list for PBXNativeTarget "musitek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFAC30F200D75B3006861BD /* Debug */,
+				3BFAC310200D75B3006861BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFAC311200D75B3006861BD /* Build configuration list for PBXNativeTarget "musitekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFAC312200D75B3006861BD /* Debug */,
+				3BFAC313200D75B3006861BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFAC314200D75B3006861BD /* Build configuration list for PBXNativeTarget "musitekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFAC315200D75B3006861BD /* Debug */,
+				3BFAC316200D75B3006861BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BFAC2DE200D75B3006861BD /* Project object */;
+}
